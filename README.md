@@ -39,7 +39,7 @@ $ git checkout java
     - Dirver Class: org.h2.Driver,
     - User name: sa
     - JDBC URL: jdbc:h2:mem:testdb
-- 필요한 라이브러리는 자유롭게 `pom.xml`에 추가해서 사용하면 됩니다.
+- 필요한 라이브러리는 Java 과제의 경우 `pom.xml`에, Kotlin 과제의 경우 `build.gradle.kts`에 자유롭게 추가해서 사용하면 됩니다.
 - 테스트는 Java 과제의 경우 `mvn test`, Kotlin 과제의 경우 `gradle test` 명령어로 실행할 수 있습니다.
   - 실행 시 매번 DB 마이그레이션을 수행합니다.
 
